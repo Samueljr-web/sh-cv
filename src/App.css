@@ -1,0 +1,23 @@
+.container {
+  padding: 1rem 5%;
+}
+.sections {
+  padding: 1rem 4%;
+}
+.sections * {
+  margin: 10px;
+}
+
+.skills {
+  display: flex;
+  column-gap: 2rem;
+}
+.skills ul li {
+  list-style-type: square;
+}
+
+.edu,
+.exp {
+  display: flex;
+  justify-content: space-between;
+}

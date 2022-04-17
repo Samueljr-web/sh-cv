@@ -1,0 +1,36 @@
+.header {
+  background: #3f3ff8;
+  height: 15rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.intro img {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  padding: 4px;
+}
+.info * {
+  margin: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+  }
+  .info * {
+    display: flex;
+    align-items: baseline;
+  }
+  .intro {
+    display: flex;
+    column-gap: 5rem;
+    padding: 5px;
+  }
+  .intro h2 {
+    font-size: 1.3rem;
+  }
+}

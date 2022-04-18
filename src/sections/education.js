@@ -2,9 +2,9 @@ import React from "react";
 
 const education = () => {
   return (
-    <div>
+    <div className="section-card">
       <h2>Education</h2>
-      <hr />
+
       <div>
         <div className="edu">
           <div>

@@ -2,10 +2,8 @@ import React from "react";
 
 const experience = () => {
   return (
-    <div>
+    <div className="section-card">
       <h2>Work Experience</h2>
-      <hr />
-
       <div>
         <div className="exp">
           <div>

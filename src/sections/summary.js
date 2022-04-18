@@ -2,7 +2,7 @@ import React from "react";
 
 const summary = () => {
   return (
-    <div>
+    <div className="section-card">
       <h2>Summary</h2>
       <hr />
       <p>

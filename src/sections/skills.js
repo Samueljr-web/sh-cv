@@ -2,9 +2,8 @@ import React from "react";
 
 const skills = () => {
   return (
-    <div>
+    <div className="section-card">
       <h2>Skills</h2>
-      <hr />
       <div className="skills">
         <ul>
           <li>Html5</li>

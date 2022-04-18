@@ -2,4 +2,16 @@
   background: #3f3ff8;
   height: 5rem;
   color: #fff;
+  margin-top: 2rem;
+}
+
+.footer p {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+.footer p a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 5px;
 }

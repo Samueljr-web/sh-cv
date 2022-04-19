@@ -13,7 +13,7 @@
 }
 .skills {
   display: flex;
-  column-gap: 2rem;
+  column-gap: 2.3rem;
 }
 .skills ul li {
   list-style-type: none;

@@ -24,6 +24,7 @@
   .info * {
     display: flex;
     align-items: baseline;
+    font-size: 0.81rem;
   }
   .intro {
     display: flex;
@@ -31,6 +32,27 @@
     padding: 5px;
   }
   .intro h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .info * {
+    display: flex;
+    align-items: baseline;
+    font-size: 0.67rem;
+    margin: 5px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    padding: 5px;
+  }
+  .intro img{
+    width: 130px;
+  }
+  .intro h2 {
+    font-size: 1.1rem;
+    margin-top: 10px;
   }
 }

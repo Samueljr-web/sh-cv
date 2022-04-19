@@ -5,7 +5,7 @@ function footer() {
   return (
     <div className="footer">
       <p>
-        &copy; designed with ❤ by
+        &copy; designed with ❤ by<br/>
         <a href="samueljrweb.vercel.app">samueljrweb</a>
       </p>
     </div>
